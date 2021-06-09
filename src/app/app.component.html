@@ -2,6 +2,7 @@
 <style>
   #disform{
     padding: 10px;
+
   }
   #lname{
     font-size: 23px;
@@ -59,9 +60,19 @@
 
     border-radius: 4px;
 }
+.bg{
+  border: 2px solid;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-color: black;
+  height: 700px;
+
+}
+
 
 </style>
 <div class="bg">
+<div >
 
   <!-- Toolbar -->
   <form style="text-align:center;" id="disform" onSubmit="submit()" >
@@ -96,7 +107,8 @@
   </table>
 </form>
 </div>
-<div >
+
+<div>
 <form >
   <table style="background-color: #ffffff; filter: alpha(opacity=40); opacity: 0.95;border:2px black solid;" cellSpacing="5px" cellPadding="30px" align="center"  class ="table2">
     <thead>
@@ -113,7 +125,8 @@
 </form>
 </div>
 <br>
-<div >
+
+<div>
 
 
 
@@ -129,10 +142,13 @@
        <td><input type="radio"  name="district"   value="Salem">Salem</td>
        </tr>
     </tbody>
+
   </table>
+  <br>
 </form>
 
 
+</div>
 </div>
 <script>
   function submit() {
